@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="project.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text|Supermercado+One" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="project.css">
+  <title>Identety App</title>
+</head>
+
+<body>
+  <header>
+    <div class="nav">
+      <div>
+        <a class="nav-btn" href="">Home</a>
+        <a class="nav-btn" href="">About Us</a>
+        <a class="nav-btn" href="">Clients</a>
+      </div>
+      <div>
+        <a class="nav-btn" href="#login-form">Log In</a>
+        <a class="nav-btn hidden" href="">Log Out</a>
+        <a class="nav-btn" href="">Register</a>
+      </div>
+    </div>
+  </header>
+  <main>
+
+    <!-- INFORMATION -->
+    <div class="title">
+      <h1>Welcome to Identety App</h1>
+    </div>
+    <div class="description">
+      <div class="description__child">
+        <h2>Clients</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+          aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+          sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+      <div class="description__child">
+        <h2>Adress</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+          aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+          sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+    </div>
+
+    <!-- IDENTIFY PERSON -->
+
+    <form class="container">
+      <div class="container__row">
+        <label for="first-name">First Name </label>
+        <input class="size" type="text" id="first-name">
+      </div>
+      <div class="container__row">
+        <label for="second-name">Second Name </label>
+        <input class="size" type="text" id="second-name">
+      </div>
+      <div class="container__row">
+        <label for="last-name">Last Name</label>
+        <input class="size" type="text" id="last-name">
+      </div>
+      <div class="container__row">
+        <label for="id"> ID </label>
+        <input class="size" type="text" id="id">
+      </div>
+
+      <button class="btn-primary" type="submit">Submit</button>
+    </form>
+
+    <!-- REGISTER FORM -->
+
+    <form id="register-form">
+      <h3>Register</h3>
+      <div class="field-wrapper">
+        <label for="reg-username">Username</label>
+        <input class="size" type="text" placeholder="Enter Usarname" name="username" id="reg-username" required>
+      </div>
+      <div class="field-wrapper">
+        <label for="reg-password">Password</label>
+        <input class="size" type="password" placeholder="Enter Password" id="reg-password" name="psw" required>
+      </div>
+      <div class="field-wrapper">
+          <label for="reg-password">Confirm password</label>
+          <input class="size" type="password" placeholder="Confirm password" id="reg-conf-password" name="conf-psw" required>
+        </div>
+      <button class="btn">Submit</button>
+    </form>
+
+    <!-- LOGIN FORM -->
+    
+    <form id="login-form">
+      <h3>Login Here:</h3>
+      <div class="field-wrapper">
+        <label>Username</label>
+        <input class="size" type="text" placeholder="Enter Username" name="username" required>
+      </div>
+      <div class="field-wrapper">
+        <label>Password</label>
+        <input class="size" type="password" placeholder="Enter Password" name="psw" required>
+      </div>
+
+      <button class="btn" type="login">Login</button>
+    </form>
+
+  </main>
+
+  <footer>
+    <p> &reg; 2018 IDENTETY APP. All rights reserved !</p>
+  </footer>
+
+  <script> src = "js/project.js" </script>
+</body>
+
+</html>

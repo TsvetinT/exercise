@@ -1,0 +1,164 @@
+header {
+  display: block;
+}
+
+body {
+  font-family: 'Supermercado One', cursive;
+  margin: 0;
+  display: flex;
+  flex-flow: column;
+  min-height: 100vh;
+}
+
+main {
+  padding: 30px;
+  box-sizing: border-box;
+  flex: 1;
+}
+
+footer {
+  width: 100%;
+  background-color: rgb(106, 186, 218);
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: #1e90ff;
+  transition: color 0.5s ease;
+  margin: 0;
+}
+
+h1:hover {
+  color: #000
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  width: 300px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.container__row {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.size {
+  padding: 5px 10px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  min-height: 30px;
+  border-radius: 6px;
+  outline: none;
+}
+
+.container__row label {
+  margin-bottom: 5px;
+}
+
+.btn-primary {
+  background-color: #21a9be;
+  color: #ddd;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin-top: 5px;
+  padding: 10px 15px;
+  align-self: flex-start;
+  transition: background-color 0.5s ease, color 0.5s ease;
+  outline: none;
+}
+
+.btn-primary:hover {
+  background-color: #b0b3c5;
+  color: #000;
+}
+
+.column {
+  float: left;
+}
+
+.column-right {
+  float: right;
+}
+
+.nav-btn {
+  background-color: #21a9be;
+  color: #000;
+  box-sizing: border-box;
+  border-radius: 4px;
+  outline: none;
+  padding: 5px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.nav-btn+.nav-btn {
+  margin-left: 10px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  background-color: #ddd;
+  padding: 10px 30px;
+}
+
+
+/* LOGIN FORM */
+
+.loginform {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  width: 300px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: auto;
+}
+
+.login {
+  position: relative;
+  margin: 0 auto;
+  padding: 20px 20px 20px;
+  width: 310px;
+  background: white;
+  border-radius: 3px;
+}
+
+.btn {
+  background-color: #21a9be;
+  color: #ddd;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin-top: 5px;
+  padding: 10px 15px;
+  align-self: auto;
+  outline: none;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+.description {
+  display: flex;
+}
+
+.description__child+.description__child {
+  margin-left: 30px;
+}
+
+.hidden {
+  display:none !important ;
+}
